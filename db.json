@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "user@example.com",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": "1401",
+      "email": "wangiemamati@gmail.com",
+      "password": "1234",
+      "role": "user"
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "make": "Toyota",
+      "model": "Corolla",
+      "price": "20000",
+      "engine": "1.8L",
+      "transmission": "Automatic",
+      "fuel type": "petrol",
+      "mileage": "10000",
+      "type": "sedan",
+      "image": "assets/images/car1.jpg"
+    },
+    {
+      "id": "2",
+      "make": "Honda",
+      "model": "Civic",
+      "price": "22000",
+      "engine": "2.0L",
+      "transmission": "Automatic",
+      "fuel type": "petrol",
+      "mileage": "10000",
+      "type": "sedan",
+      "image": "assets/images/car2.jpg"
+    },
+    {
+      "id": "3",
+      "make": "Ford",
+      "model": "Mustang",
+      "price": "40000",
+      "engine": "5.0L",
+      "transmission": "Manual",
+      "fuel type": "petrol",
+      "mileage": "10000",
+      "type": "coupe",
+      "image": "assets/images/car3.jpg"
+    },
+    {
+      "id":"4",
+      "make":"Subaru",
+      "model":"Wrx",
+      "price":"25000",
+      "engine": "2.4L",
+      "transmission": "Manual",
+      "fuel type": "petrol",
+      "mileage": "10000",
+      "type": "sedan",
+      "image":"assets/images/car4.jpg"
+    },
+    {
+      "id":"5",
+      "make":"Audi",
+      "model":"Quatro 7",
+      "price":"40000",
+      "engine": "2.0L",
+      "transmission": "Automatic",
+      "fuel type": "diesel",
+      "mileage": "10000",
+      "type": "suv",
+      "image":"assets/images/car5.jpg"
+    },
+    {
+      "id":"6",
+      "make":"Mercedes",
+      "model":"C-250",
+      "price":"30000",
+      "engine": "2.0L",
+      "transmission": "Automatic",
+      "fuel type": "petrol",
+      "mileage": "10000",
+      "type": "sedan",
+      "image":"assets/images/car6.jpg"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Western Motors</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Western Motors</h1>
+    </header>
+
+    <!-- Splash Screen -->
+    <div id="splash-screen" class="splash-screen">
+      <h2>Welcome to Western Motors, your dream ride awaits you.</h2>
+    </div>
+
+    <main>
+      <!-- Inventory Section -->
+      <section id="inventory">
+        <h2>Car Inventory</h2>
+        <div id="car-list"></div>
+      </section>
+
+      <!-- Login/Register Modal -->
+      <div id="auth-modal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="close-modal">&times;</span>
+          <div id="auth-forms">
+            <!-- Login Form -->
+            <form id="login-form">
+              <h3>Login</h3>
+              <label for="login-email">Email:</label>
+              <input type="email" id="login-email" required />
+              <label for="login-password">Password:</label>
+              <input type="password" id="login-password" required />
+              <button type="submit">Login</button>
+            </form>
+
+            <hr />
+
+            <!-- Register Form -->
+            <form id="register-form">
+              <h3>Register</h3>
+              <label for="register-email">Email:</label>
+              <input type="email" id="register-email" required />
+              <label for="register-password">Password:</label>
+              <input type="password" id="register-password" required />
+              <button type="submit">Register</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Car Details Modal -->
+      <div id="car-details-modal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="close-car-details-modal">&times;</span>
+          <h3>Car Details</h3>
+          <p id="car-details"></p>
+          <button id="close-details-button">Close</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Western Motors</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
